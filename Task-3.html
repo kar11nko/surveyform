@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task-3</title>
+<meta charset="utf-8">
+<style>
+.required
+{
+ color: red;
+}
+.form1
+{
+line-height: 300%;
+}
+.form2
+{
+line-height: 300%;
+}
+.form3
+{
+line-height: 300%;
+}
+.form4
+{
+line-height: 300%;
+}
+.form5
+{
+line-height: 300%;
+}
+.form6
+{
+line-height: 300%;
+}
+.form7
+{
+line-height: 300%;
+}
+.form8
+{
+line-height: 300%;
+}
+.form9
+{
+line-height: 300%;
+}
+.form10
+{
+line-height: 300%;
+}
+.form11
+{
+line-height: 400%;
+ text-align:center;
+}
+.med{ 
+font-size: 15px;  
+padding: 0.2em 0.4em .5em .8em; width: 70%; 
+} 
+</style>
+</head>
+<body>
+<h1>Lab2: Part 3</h1>
+<hr>
+<h1><p style="color:#03045e">Медицинская карта</p></h1>
+<form>
+<div class="form1">
+  <label class="control-label" for="username"><p style="font:italic 20px bold "Times New Roman", Times, serif"><b>Полное имя</b></label><span class="required">*</span> <br>
+</div>
+  <input type="text" name="name" required="required">
+<input type="text" name="surname" required="required">
+  <br>Имя &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Фамилия
+<br>
+<div class="form2">
+  <label class="control-label" for="tel"><p style="font:italic 20px bold "Times New Roman", Times, serif"><b>Номер телефона</b></label><span class="required">*</span> 
+</div>
+<input type="tel" name="tel" 
+   pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{4}">
+ <div class="form3">
+  <label class="control-label" for="answers">
+  <b>Check the conditions that apply to you or to your any members of your immediate relatives:</b></label><span class="required">*</span> 
+</div>
+  <input type="checkbox" id="condition1" name="condition1" value="asthma">
+  <label for="condition1"> Asthma</label><br>
+  <input type="checkbox" id="condition2" name="condition2" value="asthma">
+  <label for="condition2"> Cancer</label><br>
+  <input type="checkbox" id="condition3" name="condition3" value="cancer">
+  <label for="condition3"> Cardiac disease</label><br>
+  <input type="checkbox" id="condition4" name="condition4" value="asthma">
+  <label for="condition4"> Diabetes</label><br>
+  <input type="checkbox" id="condition5" name="condition5" value="asthma">
+  <label for="condition5"> Hypertension</label><br>
+  <input type="checkbox" id="condition6" name="condition6" value="asthma">
+  <label for="condition6"> Psychiatric disorder</label><br>
+  <input type="checkbox" id="condition7" name="condition7" value="asthma">
+  <label for="condition7"> Epilepsy</label><br>
+  <div class="form4">
+  <label class="control-label" for="answers">
+  <b>Check the symptoms that you're currently experiencing:</b></label><span class="required">*</span> 
+</div>
+  <input type="checkbox" id="symptoms1" name="symptoms1" value="asthma">
+  <label for="symptoms1"> Chest pain</label><br>
+  <input type="checkbox" id="symptoms2" name="symptoms2" value="asthma">
+  <label for="symptoms2"> Respiratory</label><br>
+  <input type="checkbox" id="symptoms3" name="symptoms3" value="cancer">
+  <label for="symptoms3"> Cardiac disease</label><br>
+  <input type="checkbox" id="symptoms4" name="symptoms4" value="asthma">
+  <label for="symptoms4"> Cariovascular</label><br>
+  <input type="checkbox" id="symptoms5" name="symptoms5" value="asthma">
+  <label for="symptoms5"> Hematalogical</label><br>
+  <input type="checkbox" id="symptoms6" name="symptoms6" value="asthma">
+  <label for="symptoms6"> Lymphatic</label><br>
+  <input type="checkbox" id="symptoms7" name="symptoms7" value="asthma">
+  <label for="symptoms7"> Neurological</label><br>
+  <input type="checkbox" id="symptoms8" name="symptoms8" value="asthma">
+  <label for="symptoms8"> Psychiatric</label><br>
+  <input type="checkbox" id="symptoms9" name="symptoms9" value="asthma">
+  <label for="symptoms9"> Gastriontestinal</label><br>
+  <input type="checkbox" id="symptoms10" name="symptoms10" value="asthma">
+  <label for="symptoms10"> Genitourinaty</label><br>
+  <input type="checkbox" id="symptoms11" name="symptoms11" value="asthma">
+  <label for="symptoms11"> Weight pain</label><br>
+  <input type="checkbox" id="symptoms12" name="symptoms12" value="asthma">
+  <label for="symptoms12"> Weight loss</label><br>
+  <input type="checkbox" id="symptoms13" name="symptoms13" value="asthma">
+  <label for="symptoms13"> Musculoskeletal</label><br>
+<div class="form5">
+  <label class="control-label" for="answers">
+  <b>Are you currently taking any medication?</b></label><span class="required">*</span> 
+</div>
+<input id="radio_1" name="med" type="radio" value="1" />
+<label for="radio_1">Yes</label><br />
+<input id="radio_2" name="med" type="radio" value="2" />
+<label for="radio_2">No</label><br />
+<div class="form6">
+  <label class="control-label" for="answers">
+  <b>Do you have any medication allergies?</b></label><span class="required">*</span> 
+</div>
+<input id="radio1" name="medd" type="radio" value="1" />
+<label for="radio1">Yes</label><br />
+<input id="radio2" name="medd" type="radio" value="2" />
+<label for="radio2">No</label><br /> 
+<input id="radio3" name="medd" type="radio" value="3" />
+<label for="radio3">Not Sure</label><br /> 
+<div class="form7">
+  <label class="control-label" for="answers">
+  <b>What is your gender?</b></label><span class="required">*</span> 
+</div>
+<input id="radio11" name="meddd" type="radio" value="1" />
+<label for="radio11">Male</label><br />
+<input id="radio22" name="meddd" type="radio" value="2" />
+<label for="radio22">Female</label><br/> 
+<div class="form8">
+  <label class="control-label" for="answers">
+  <b>Do you use or do you have history of using tobacco?</b></label><span class="required">*</span> 
+</div>
+<select class="med" id="yes-no">
+    <option value="">No</option>
+    <option value="dog">Yes</option>    
+</select>
+<div class="form9">
+  <label class="control-label" for="answers">
+  <b>Do you use or do you have history of using illegal drugs?</b></label><span class="required">*</span> 
+</div>
+<select class="med" id="yes-no">
+    <option value="">No</option>
+    <option value="dog">Yes</option>
+    </select>
+ <div class="form10">
+  <label class="control-label" for="answers">
+  <b>How often do you consume alcohol?</b></label><span class="required">*</span> 
+</div>
+  <input type="checkbox" id="condition1" name="condition1" value="asthma">
+  <label for="condition1"> Ежедневно</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="checkbox" id="condition2" name="condition2" value="asthma">
+  <label for="condition2">Еженедельно</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="checkbox" id="condition4" name="condition4" value="asthma">
+  <label for="condition4">Ежемесячно</label><br>
+  <input type="checkbox" id="condition3" name="condition3" value="cancer">
+  <label for="condition3"> Occasionally</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="checkbox" id="condition4" name="condition4" value="asthma">
+  <label for="condition4"> Никогда</label>
+  <br>
+  <p></p>
+<div class="form11">
+  <input type="submit" value="Отправить">
+</div>
+</form>
+</body>
+</html>
